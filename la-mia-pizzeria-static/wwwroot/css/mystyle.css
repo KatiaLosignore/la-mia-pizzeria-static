@@ -14,7 +14,8 @@ h1 {
 }
 
 main img {
-    width: 200px;
+    max-width: 200px;
+    display: block;
 }
 
 ul li {
