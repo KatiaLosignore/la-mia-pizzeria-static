@@ -1,11 +1,33 @@
-﻿body {
+﻿
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-color: rgb(247,172,78);
 }
 
 h1 {
     color: red;
 }
 
-img {
+main img {
     width: 200px;
 }
+
+ul li {
+    font-weight: bold;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+}
+
+footer img {
+    border-radius: 50%;
+}
+
+
